@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: mintcream;
+    color:darkslategray;
+}
+h2{
+    color: teal;
+}
+h3{
+    color: royalblue;
+}
+header{
+    background: linear-gradient(135deg, teal, royalblue);
+    color: white;
+    text-align: center;
+    padding: 40px 20px 50px 20px;
+}
+header h1{
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.25);
+}
+header p{
+    margin: 0;
+    font-size: 18px;
+}
+main{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+footer{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media (max-width: 600px){
+    header h1{
+        font-size: 28px;
+    }
+}
+        

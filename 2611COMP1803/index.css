@@ -1,0 +1,40 @@
+body{
+    line-height: 1.6;
+}
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#danhsach{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.the{
+    display: block;
+    width: 250px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: darkslategray;
+    border-radius: 16px;
+    border-top: 8px solid salmon;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.the:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.icon{
+    font-size: 60px;
+}
+.the h3{
+    margin: 10px 0;
+}
+.the p{
+    margin: 0;
+}
