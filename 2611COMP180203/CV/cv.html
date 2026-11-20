@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widtc, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="cv.css" />
+</head>
+<body>
+    <header>
+        <h1>Đinh Gia Huy</h1>
+        <img src="anh_dai_dien.jpg" alt="Ảnh đại diện" width="150">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#so-thich">Sở thích & Kỹ năng</a></li>
+            <li><a href="#tkb">Thời khoá biểu</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="gioi-thieu">
+            <h2>Giới thiệu</h2>
+            <article>
+                <p>Xin chào! Tôi là Đinh Gia Huy, sinh viên ngành Công nghệ Thông tin tại Trường Đại học Sư phạm. Tôi có niềm đam mê mạnh mẽ với lập trình và luôn hào hứng khám phá những công nghệ mới. Với thế mạnh về giao tiếp, làm việc nhóm và tư duy giải quyết vấn đề, tôi mong muốn tạo ra những sản phẩm công nghệ hữu ích, chỉn chu và không ngừng hoàn thiện bản thân qua từng dự án.</p>
+            </article>
+        </section>
+
+        <section id="so-thich">
+            <h2>Sở thích và Kỹ Năng</h2>
+            <article>
+                <h3>Sở thích</h3>
+                <ul>
+                    <li>Lập trình</li>
+                    <li>Chơi game</li>
+                    <li>Nghe nhạc</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Kỹ năng chuyên môn</h3>
+                <ul>
+                    <li>Ngôn ngữ lập trình & Web: C++, HTML, CSS, JavaScript</li>
+                    <li>Công cụ thiết kế: Adobe Photoshop (Ps)</li>
+                    <li>Công cụ & Quản lý mã nguồn: Git, GitHub, Visual Studio Code</li>
+                    <li>Kiến thức nền tảng: Lập trình hướng đối tượng (OOP), Responsive Web Design</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Kỹ năng mềm</h3>
+                <ul>
+                    <li>Làm việc nhóm</li>
+                    <li>Giao tiếp tốt</li>
+                    <li>Giải quyết vấn đề</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="tkb">
+            <h2>Thời Khoá Biểu</h2>
+            <div class="cuon">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Khung giờ</th>
+                            <th>Thứ 2</th>
+                            <th>Thứ 3</th>
+                            <th>Thứ 4</th>
+                            <th>Thứ 5</th>
+                            <th>Thứ 6</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Buổi sáng<small>6h30-9h00</small></td>
+                            <td></td>
+                            <td class="mon">Triết học Mác - Lênin (POLI2001)<small>Phòng A.103</small></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Buổi chiều<small>12h30-15h00</small></td>
+                            <td class="mon">Thiết kế web (COMP1802)<small>Phòng I.201</small></td>
+                            <td></td>
+                            <td></td>
+                            <td class="mon">Cơ sở toán trong CNTT (COMP1800)<small>Phòng B.205</small></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Buổi chiều<small>15h10-17h40</small></td>
+                            <td class="mon">Lập trình cơ bản (COMP1010)<small>Phòng I.203</small></td>
+                            <td class="mon">Cơ sở toán trong CNTT (COMP1800)<small>Phòng B.414</small></td>
+                            <td class="mon">Lập trình cơ bản (COMP1010)<small>Phòng I.203</small></td>
+                            <td class="mon">Toán rời rạc và ứng dụng (COMP1801)<small>Phòng I.203</small></td>
+                            <td class="mon">Giáo dục thể chất 1 (Thể dục - Điền kinh) (PHYL2401)<small>NTĐ Phú Thọ </small></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Mạng xã hội & Liên kết</h2>
+            <p>Kết nối với tôi</p>
+            <ul>
+                <li><a href="https://www.facebook.com/gia.huy.inh.353007" target="_blank">Facebook cá nhân</a></li>
+                <li><a href="https://github.com/DinhGiaHuy150608" target="_blank">Github cá nhân </a> </li>
+            </ul>
+        </section>
+
+        <section id="lien-he">
+            <h2>Thông tin liên hệ</h2>
+            <from action="#" method="post">
+                <p>
+                    <label for="fullname">Họ và tên:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên của bạn">
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Nhập email">
+                </p>
+                <p>
+                    <label for="message">Lời nhắn:</label><br>
+                    <textarea type="message" id="message" name="message" rows="4" cols="50" placeholder="Viết lời nhắn"></textarea>
+                </p>
+                <button type="submit">Gửi</button>
+            </from>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về Đinh Gia Huy. Tất cả quyền được bảo lưu</p>
+    </footer>
+</body>
+</html>
